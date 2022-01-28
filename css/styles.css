@@ -168,14 +168,11 @@ img {
 
 .contacts-icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .contacts-item + .contacts-item {
   margin-left: 30px;
-}
-
-.contacts-text {
-  margin-left: 10px;
 }
 
 .contacts-link:hover,
@@ -184,7 +181,7 @@ img {
 }
 
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   background-color: var(--bg-hero);
   background-image: linear-gradient(
       to right,
@@ -240,7 +237,7 @@ img {
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -344,7 +341,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-text-color);
+  color: #afb1b8;
 }
 
 .team-socials-icon {
@@ -450,13 +447,16 @@ img {
   margin-bottom: 20px;
 }
 
+.footer-socials-cont {
+  margin-left: 70px;
+}
+
 .footer-text {
   color: var(--primary-bg-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  text-align: center;
   margin-bottom: 20px;
   text-decoration: none;
 }
@@ -465,7 +465,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 70px;
 }
 
 .footer-socials-item + .footer-socials-item {
@@ -480,6 +479,7 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--primary-bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-socials-icon {

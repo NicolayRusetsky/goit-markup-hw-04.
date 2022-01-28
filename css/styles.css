@@ -536,7 +536,6 @@ img {
 }
 .card-set-link {
   display: block;
-  text-decoration: none;
 }
 .card-set-link:hover,
 .card-set-link:focus {

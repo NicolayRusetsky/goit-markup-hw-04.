@@ -534,11 +534,13 @@ img {
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
 }
-
-.card-set-item:hover,
-.card-set-item:focus {
-  cursor: pointer;
+.card-set-link {
+  display: block;
+}
+.card-set-link:hover,
+.card-set-link:focus {
   box-shadow: var(--card-set-hover-shadow);
+  border: 0;
 }
 
 .portfolio-card {
